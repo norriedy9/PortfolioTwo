@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(skyblue, darkblue);
+}
+
+#navbarDiv {
+    margin: 0 0 20px 0;
+    padding:20px;
+    border-radius:20px;
+    display: flex;
+    justify-content: space-around;
+    background-color:darkblue;
+    text-align:center;
+
+}
+
+.navButton {
+    padding:20px;
+    background:none;
+    border-top:none;
+    border-bottom:none;
+    border-left: 4px solid skyblue;
+    border-right: 4px solid skyblue;
+    font-size:large;
+    color:skyblue;
+    font-weight:bolder;
+    
+}
+
+.navButton:hover {
+    background:skyblue;
+    color:darkblue;
+}
+
+#headerDiv {
+    margin: 0 20px 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    color:darkblue;
+    font-weight: 50;
+
+
+}
+
+#meImg {
+    width:300px;
+    height: 300px;
+    border-radius: 500px;
+    border: 10px solid skyblue;
+}
+
+
+#headertextDiv {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+
+}
